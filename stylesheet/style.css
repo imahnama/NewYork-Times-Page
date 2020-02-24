@@ -1,61 +1,88 @@
-body{
-    margin: 0;
-    padding: 0;
-
+body {
+  margin: 0;
+  padding: 0;
 }
 
-header{
-    margin-top: 0px;
+header {
+  margin-top: 0px;
 }
 
-
-nav{
-    display: flex;
-    margin-top: 0px;
-
-
-
+nav {
+  display: flex;
+  margin-top: 0px;
 }
 
-.left-nav{
-    justify-content: flex-start;
-    margin-left: 20px;
-    width: 30%
-
+.left-nav {
+  justify-content: flex-start;
+  margin-left: 20px;
+  width: 30%;
 }
 
-.icon, .fas{
-     margin-right: 20px;
+.icon,
+.fas {
+  margin-right: 20px;
 }
 
+.center-nav {
+  justify-content: center;
+  text-align: center;
+  width: 40%;
+  font-weight: bold;
+}
 
-.center-nav{
-    justify-content: center;
+svg {
+  width: 180px;
+  height: auto;
+  padding-top: 0;
+}
+
+.right-nav {
+  justify-content: flex-end;
+  margin-right: 20px;
+  width: 30%;
+  text-align: right;
+}
+
+.right-nav button {
+  padding: 8px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  background-color: #316891;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.advertisement{
     text-align: center;
-    width: 40%;
-    font-weight: bold;
-
+    background-color:#F7F7F7;
+    height: 200px;
+    padding: 5px;
+    color:lightgray;
+}
+.advert{
+  font-size: 12px;
 }
 
-svg{
-
-    width: 180px;
-    height:auto;
-    padding-top: 0;
-}
-
-.right-nav{
-justify-content: flex-end;
-margin-right: 20px;
-width: 30%;
-text-align: right;
+.space-ripples h1{
+    margin: 50px 0 20px 350px;
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-style: italic;
+    font-size: 35px;
 
 }
-
-.right-nav button{
-    padding: 10px;
-    font-weight: bold;
-    color: white;
-    border-radius: 5px;
-    background-color: #316891;
+.space-ripples img, p{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 16px;
+    color:gray;
+    margin-bottom: 0;
+}
+.space-ripples p{
+  margin-top: 5px;
+}
+.space-ripples span{
+    font-size: 13px;
+    color: #c0c0c0;
 }
