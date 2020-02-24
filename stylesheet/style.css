@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    margin-top: 0px;
+}
+
+
+nav{
+    display: flex;
+    margin-top: 0px;
+
+
+
+}
+
+.left-nav{
+    justify-content: flex-start;
+    margin-left: 20px;
+    width: 30%
+
+}
+
+.icon, .fas{
+     margin-right: 20px;
+}
+
+
+.center-nav{
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+    font-weight: bold;
+
+}
+
+svg{
+
+    width: 180px;
+    height:auto;
+    padding-top: 0;
+}
+
+.right-nav{
+justify-content: flex-end;
+margin-right: 20px;
+width: 30%;
+text-align: right;
+
+}
+
+.right-nav button{
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    background-color: #316891;
+}
