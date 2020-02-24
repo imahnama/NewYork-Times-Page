@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 15px;
 }
 
 header {
@@ -71,18 +73,40 @@ svg {
     font-size: 35px;
 
 }
-.space-ripples img, p{
+.space-ripples img{
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
     font-size: 16px;
-    color:gray;
     margin-bottom: 0;
 }
 .space-ripples p{
   margin-top: 5px;
+  color:gray;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+
 }
 .space-ripples span{
     font-size: 13px;
     color: #c0c0c0;
+}
+
+.cambridge{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 40px;
+}
+
+.article-icons i{
+    margin-left: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.article-date{
+    margin-right: 400px;
 }
