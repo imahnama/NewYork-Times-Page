@@ -5,7 +5,14 @@ body {
   font-size: 20px;
 }
 
-h1, h2, h3, h4, h5, h6, article, section{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+article,
+section {
   margin: 0;
   padding: 0;
 }
@@ -21,8 +28,8 @@ h1, h2, h3, h4, h5, h6, article, section{
 nav {
   display: flex;
   margin-top: -25px;
-  padding: 6px;
-  border-bottom: 1px solid #E2E2E2;
+  padding: 2px;
+  border-bottom: 1px solid #e2e2e2;
   /*background-color: blue;*/
 }
 
@@ -30,13 +37,14 @@ nav {
   justify-content: flex-start;
   margin-left: 20px;
   width: 30%;
+  margin-top: 7px;
 }
 
 .icon,
 .fas {
   margin-right: 20px;
 }
-.icon a{
+.icon a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 15px;
@@ -49,12 +57,12 @@ nav {
   text-align: center;
   width: 40%;
   font-weight: bold;
+  margin-top: 7px;
 }
 
 svg {
-  width: 180px;
+  width: 190px;
   height: auto;
-  padding-top: 0;
 }
 
 .right-nav {
@@ -62,6 +70,7 @@ svg {
   margin-right: 20px;
   width: 30%;
   text-align: right;
+  padding-top: 5px;
 }
 
 .right-nav button {
@@ -69,102 +78,98 @@ svg {
   font-size: 11px;
   font-weight: bold;
   color: white;
-  border-radius: 5px;
+  border-radius: 4px;
   background-color: #316891;
   border: none;
-  /*margin-bottom: 10px;*/
 }
 
-.advertisement{
-    text-align: center;
-    background-color:#F7F7F7;
-    height: 200px;
-    padding: 5px;
-    color:lightgray;
+.advertisement {
+  text-align: center;
+  background-color: #f7f7f7;
+  height: 200px;
+  padding: 5px;
+  color: lightgray;
 }
-.advert{
+.advert {
   font-size: 11px;
 }
 
-.space-ripples h1{
-    margin: 50px 0 20px 350px;
-    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-    font-style: italic;
-    font-size: 35px;
-
+.space-ripples h1 {
+  margin: 50px 0 20px 350px;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-style: italic;
+  font-size: 35px;
 }
-.space-ripples img{
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-    font-size: 16px;
-    margin-bottom: 0;
-}
-.space-ripples p{
-  margin-top: 5px;
-  color:gray;
+.space-ripples img {
   width: 70%;
   margin-left: 15%;
   margin-right: 15%;
-
+  font-size: 16px;
+  margin-bottom: 0;
 }
-.space-ripples span{
-    font-size: 13px;
-    color: #c0c0c0;
+.space-ripples p {
+  margin-top: 5px;
+  color: gray;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
-
-.cambridge{
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    padding: 30px 0;
-}
-
-.article-icons i{
-    margin-left: 5px;
-    margin-top: 20px;
-    margin-bottom: 25px;
-
+.space-ripples span {
+  font-size: 13px;
+  color: #c0c0c0;
 }
 
-.article-author{
+.cambridge {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 30px 0;
+}
+
+.article-icons i {
+  margin-left: 5px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.article-author {
   font-size: 16px;
   margin: 0;
 }
 
-.article-date{
-    margin-right: 320px;
-    font-size: 14px;
+.article-date {
+  margin-right: 320px;
+  font-size: 14px;
 }
 
-.cambridge-editors{
+.cambridge-editors {
   display: flex;
   justify-content: center;
 }
 
-.cambridge-2{
+.cambridge-2 {
   width: 50%;
   margin-left: 25%;
   padding: 30px 0;
 }
 
-.editors-pick{
+.editors-pick {
   float: right;
   width: 18%;
   margin: auto 70px;
 }
-.editor-artwork{
+.editor-artwork {
   display: flex;
   padding: 0;
   margin-top: 15px;
 }
-.artwork-thumb{
+.artwork-thumb {
   width: 80px;
-  height:inherit;
+  height: inherit;
   float: left;
   margin-right: 10px;
 }
-.artwork-details{
+.artwork-details {
   font-size: 14px;
   color: black;
 }
