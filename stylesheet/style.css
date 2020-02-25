@@ -2,7 +2,16 @@ body {
   margin: 0;
   padding: 0;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  font-size: 15px;
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -109,4 +118,39 @@ svg {
 
 .article-date{
     margin-right: 400px;
+}
+
+.cambridge-editors{
+  display: flex;
+  justify-content: center;
+}
+
+.cambridge-2{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 40px;
+}
+
+.editors-pick{
+  float: right;
+  width: 20%;
+  /*margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 150px;
+  margin-bottom: 150px;*/
+  margin: auto 50px;
+}
+.editor-artwork{
+  display: flex;
+  margin-bottom: 15px;
+}
+.artwork-thumb{
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 10px;
+}
+.artwork-details{
+  font-size: 15px;
+  color: black;
 }
