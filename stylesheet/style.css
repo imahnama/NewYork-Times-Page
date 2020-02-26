@@ -269,3 +269,17 @@ svg {
   width: 100%;
   height: 400px;
 }
+
+#article-end {
+  font-size: 13px;
+  color: grey;
+}
+
+#article-end a{
+  color: grey;
+}
+
+.end-icons{
+  margin-right: 10px;
+  text-align: right;
+}
