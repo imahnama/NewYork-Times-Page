@@ -2,7 +2,7 @@
 
 
 > Recreating the New-York Times Page
-> ![screenshot](1.png)
+> ![screenshot](1.PNG)
 
 ## Built With
 
@@ -30,9 +30,9 @@ Fork this project to your local machine
 
 👤 **Eric Mbouwe**
 
-- Github: [@ikraamg](https://github.com/EricMbouwe)
-- Twitter: [@GhoorIkraam]https://mobile.twitter.com/EricMbouwe)
-- Linkedin: [isghoor](https://www.linkedin.com/mwlite/in/ericmbouwe)
+- Github: [@EricMbouwe](https://github.com/EricMbouwe)
+- Twitter: [@EricMbouwe](https://mobile.twitter.com/EricMbouwe)
+- Linkedin: [Eric Mbouwe](https://www.linkedin.com/mwlite/in/ericmbouwe)
 
 👤 **Rahma Halane**
 
