@@ -259,15 +259,17 @@ svg {
 
 }
 
+.south-pole{
+  width: 100%;
+  height: 400px;
+  margin-top: 25px;
+}
+
 .Andrei{
   font-size: 15px;
   margin-top: 5px;
   color: grey;
-}
-
-.south-pole{
-  width: 100%;
-  height: 400px;
+  margin-bottom: 30px;
 }
 
 #article-end {
@@ -283,3 +285,94 @@ svg {
   margin-right: 10px;
   text-align: right;
 }
+
+.astronomy{
+  width: 90%;
+  margin: auto;
+  font-size: 16px;
+}
+
+.main-astronomy{
+  width: 72%;
+  float: left;
+}
+
+.astronomy-aside{
+  width: 25%;
+  float: right;
+}
+
+.img1{
+  width: 32%;
+  float: left;
+  margin-right: 2%;
+  margin-top: 14px;
+}
+
+.img2{
+  width: 32%;
+  float: left;
+  margin-right: 2%;
+  margin-top: 14px;
+}
+
+.img3{
+  width: 32%;
+  float: left;
+  margin-right: 2%;
+  margin-top: 14px;
+}
+
+.img1 img, .img2 img, .img3 img{
+  width: 100%;
+}
+
+#sky{
+  margin-right: 0;
+}
+
+.img1 figure, .img2 figure, .img3 figure{
+  width: 100%;
+  margin:0;
+  float: left;
+  font-size: 11px;
+  color: gray;
+  margin-bottom: 5px; 
+  text-align: right;
+}
+
+.main-astronomy a{
+  text-decoration: none;
+  color: black;
+}
+
+.astronomy-img-3 h5{
+  margin-top: 25px;
+}
+
+.img-date{
+  color: gray;
+  font-size: 11px;
+}
+
+#sky1{
+  margin-bottom: 60px;
+}
+
+.astronomy-aside a{
+  text-decoration: none;
+  color: black;
+}
+
+.astronomy-aside h4{
+  margin-bottom: 15px;
+}
+ .hr-black{
+  border: 0; 
+  border-top: 1px solid black;
+ }
+
+ .gray-hr{
+  border: 0; 
+  border-top: 1px solid lightgray;
+ }
