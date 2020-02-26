@@ -175,6 +175,7 @@ svg {
 }
 
 .inflation{
+  position: relative;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
@@ -184,5 +185,72 @@ svg {
 }
 .inflation img{
   width: 100%;
-  height: 80%;
+  padding: 0;
+}
+
+.inflation-p1{
+  position: absolute;
+  top: 220px;
+  left: 0;
+  width: 24%;
+}
+
+.inflation-p2{
+  position: absolute;
+  top: 220px;
+  left: 25%;
+  width: 24%;
+}
+
+.inflation-p3{
+  position: absolute;
+  top: 220px;
+  left: 50%;
+  width: 24%;
+}
+
+.inflation-p4{
+  position: absolute;
+  top: 220px;
+  left: 75%;
+  width: 24%;
+}
+
+.inflation-p5{
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 24%;
+}
+
+.inflation-p6{
+  position: absolute;
+  bottom: 0px;
+  left: 25%;
+  width: 24%;
+}
+
+.inflation-p7{
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 24%;
+}
+
+.inflation-p8{
+  position: absolute;
+  bottom: 0px;
+  left: 75%;
+  width: 24%;
+}
+
+.inflation hr{
+  width: 8%;
+  color: black;
+  position: absolute;
+  left: 0;
+  margin-top: 20px;
+}
+.inflation-author{
+
 }
