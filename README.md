@@ -2,6 +2,7 @@
 
 
 > Recreating the New-York Times Page
+
 > ![screenshot](1.PNG)
 
 ## Built With
