@@ -43,7 +43,7 @@ Fork this project to your local machine
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues and feature requests are all welcome!
 
 Feel free to check the [https://github.com/imahnama/NewYork-Times-Page/issues](issues/).
 
