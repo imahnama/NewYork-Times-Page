@@ -49,7 +49,7 @@ Feel free to check the [https://github.com/imahnama/NewYork-Times-Page/issues](i
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a ⭐️ if you like this project!!
 
 ## Acknowledgments
 
