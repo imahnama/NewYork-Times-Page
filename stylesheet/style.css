@@ -27,7 +27,7 @@ section {
 
 nav {
   display: flex;
-  margin-top: -25px;
+  
   padding: 2px;
   border-bottom: 1px solid #e2e2e2;
   /*background-color: blue;*/
@@ -337,7 +337,7 @@ svg {
   float: left;
   font-size: 11px;
   color: gray;
-  margin-bottom: 5px; 
+  margin-bottom: 5px;
   text-align: right;
 }
 
@@ -368,11 +368,11 @@ svg {
   margin-bottom: 15px;
 }
  .hr-black{
-  border: 0; 
+  border: 0;
   border-top: 1px solid black;
  }
 
  .gray-hr{
-  border: 0; 
+  border: 0;
   border-top: 1px solid lightgray;
  }
