@@ -1,8 +1,8 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  font-size: 20px;
+	margin: 0;
+	padding: 0;
+	font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+	font-size: 20px;
 }
 
 h1,
@@ -13,456 +13,478 @@ h5,
 h6,
 article,
 section {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
-header{
-  position: fixed;
-  top: 0;
-  bottom: 93%;
-  left: 0;
-  right: 0;
+h2{
+  display: none;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	bottom: 93%;
+	left: 0;
+	right: 0;
 }
 
 nav {
-  display: flex;
-  padding: 2px;
-  border-bottom: 1px solid #e2e2e2;
-  background-color: white;
+	display: flex;
+	padding: 2px;
+	border-bottom: 1px solid #e2e2e2;
+	background-color: white;
 }
 
 .left-nav {
-  justify-content: flex-start;
-  margin-left: 20px;
-  width: 30%;
-  margin-top: 7px;
+	justify-content: flex-start;
+	margin-left: 20px;
+	width: 30%;
+	margin-top: 7px;
 }
 
 .icon,
 .fas {
-  margin-right: 20px;
+	margin-right: 20px;
 }
 .icon a {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 15px;
-  color: black;
-  font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: black;
+	font-weight: bold;
 }
 
 .center-nav {
-  justify-content: center;
-  text-align: center;
-  width: 40%;
-  font-weight: bold;
-  margin-top: 7px;
+	justify-content: center;
+	text-align: center;
+	width: 40%;
+	font-weight: bold;
+	margin-top: 7px;
 }
 
 svg {
-  width: 190px;
-  height: auto;
+	width: 190px;
+	height: auto;
 }
 
 .right-nav {
-  justify-content: flex-end;
-  margin-right: 20px;
-  width: 30%;
-  text-align: right;
-  padding-top: 5px;
+	justify-content: flex-end;
+	margin-right: 20px;
+	width: 30%;
+	text-align: right;
+	padding-top: 5px;
 }
 
 .right-nav button {
-  padding: 8px 10px;
-  font-size: 11px;
-  font-weight: bold;
-  color: white;
-  border-radius: 4px;
-  background-color: #316891;
-  border: none;
+	padding: 8px 10px;
+	font-size: 11px;
+	font-weight: bold;
+	color: white;
+	border-radius: 4px;
+	background-color: #316891;
+	border: none;
 }
 
 .advertisement {
-  text-align: center;
-  background-color: #f7f7f7;
-  height: 200px;
-  padding: 5px;
-  color: lightgray;
+	text-align: center;
+	background-color: #f7f7f7;
+	height: 200px;
+	padding: 5px;
+	color: lightgray;
 }
 .advert {
-  font-size: 11px;
+	font-size: 11px;
 }
 
 .space-ripples h1 {
-  margin: 50px 0 20px 350px;
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  font-style: italic;
-  font-size: 35px;
+	margin: 50px 0 20px 350px;
+	font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+	font-style: italic;
+	font-size: 35px;
 }
 .space-ripples img {
-  width: 70%;
-  margin-left: 15%;
-  margin-right: 15%;
-  font-size: 16px;
-  margin-bottom: 0;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-size: 16px;
+	margin-bottom: 0;
 }
 .space-ripples p {
-  margin-top: 5px;
-  color: gray;
-  width: 70%;
-  margin-left: 15%;
-  margin-right: 15%;
+	margin-top: 5px;
+	color: gray;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 .space-ripples span {
-  font-size: 13px;
-  color: #c0c0c0;
+	font-size: 13px;
+	color: #c0c0c0;
 }
 
 .cambridge {
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
-  padding: 30px 0;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding: 30px 0;
 }
 
 .article-icons i {
-  margin-left: 5px;
-  margin-top: 20px;
-  margin-bottom: 25px;
+	margin-left: 5px;
+	margin-top: 20px;
+	margin-bottom: 25px;
 }
 
 .article-author {
-  font-size: 16px;
-  margin: 0;
+	font-size: 16px;
+	margin: 0;
 }
 
 .article-date {
-  margin-right: 320px;
-  font-size: 14px;
+	margin-right: 320px;
+	font-size: 14px;
 }
 
 .cambridge-editors {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .cambridge-2 {
-  width: 50%;
-  margin-left: 25%;
-  padding: 30px 0;
+	width: 50%;
+	margin-left: 25%;
+	padding: 30px 0;
 }
 
 .editors-pick {
-  float: right;
-  width: 18%;
-  margin: auto 70px;
+	float: right;
+	width: 18%;
+	margin: auto 70px;
 }
 .editor-artwork {
-  display: flex;
-  padding: 0;
-  margin-top: 15px;
+	display: flex;
+	padding: 0;
+	margin-top: 15px;
 }
 .artwork-thumb {
-  width: 80px;
-  height: inherit;
-  float: left;
-  margin-right: 10px;
+	width: 80px;
+	height: inherit;
+	float: left;
+	margin-right: 10px;
 }
 .artwork-details {
-  font-size: 14px;
-  color: black;
+	font-size: 14px;
+	color: black;
 }
 
-.inflation{
-  position: relative;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 15px;
-
-
+.inflation {
+	position: relative;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 14px;
 }
-.inflation img{
-  width: 100%;
-  padding: 0;
+.inflation img {
+	width: 100%;
+	padding: 0;
 }
 
-.inflation-p1{
-  position: absolute;
-  top: 220px;
-  left: 0;
-  width: 24%;
+.inflation-p1 {
+	position: absolute;
+	top: 210px;
+	left: 0;
+	width: 24%;
 }
 
-.inflation-p2{
-  position: absolute;
-  top: 220px;
-  left: 25%;
-  width: 24%;
+.inflation-p2 {
+	position: absolute;
+	top: 210px;
+	left: 26%;
+	width: 24%;
 }
 
-.inflation-p3{
-  position: absolute;
-  top: 220px;
-  left: 50%;
-  width: 24%;
+.inflation-p3 {
+	position: absolute;
+	top: 210px;
+	left: 51%;
+	width: 24%;
 }
 
-.inflation-p4{
-  position: absolute;
-  top: 220px;
-  left: 75%;
-  width: 24%;
+.inflation-p4 {
+	position: absolute;
+	top: 210px;
+	left: 76%;
+	width: 24%;
 }
 
-.inflation-p5{
-  position: absolute;
-  bottom: 5px;
-  left: 0;
-  width: 24%;
+.inflation-p5 {
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	width: 24%;
 }
 
-.inflation-p6{
-  position: absolute;
-  bottom: 0px;
-  left: 25%;
-  width: 24%;
+.inflation-p6 {
+	position: absolute;
+	bottom: 0px;
+	left: 26%;
+	width: 24%;
 }
 
-.inflation-p7{
-  position: absolute;
-  bottom: 0px;
-  left: 50%;
-  width: 24%;
+.inflation-p7 {
+	position: absolute;
+	bottom: 0px;
+	left: 51%;
+	width: 24%;
 }
 
-.inflation-p8{
-  position: absolute;
-  bottom: 0px;
-  left: 75%;
-  width: 24%;
+.inflation-p8 {
+	position: absolute;
+	bottom: 0px;
+	left: 76%;
+	width: 24%;
 }
 
-.inflation hr{
-  width: 8%;
-  color: black;
-  position: absolute;
-  left: 0;
-  margin-top: 20px;
+.inflation hr {
+	width: 8%;
+	color: black;
+	position: absolute;
+	left: 0;
+	margin-top: 20px;
 }
-.cambridge iframe{
-  width: 100%;
-  height: 400px;
-  border: none;
-  margin-top: 20px;
-
-}
-
-.south-pole{
-  width: 100%;
-  height: 400px;
-  margin-top: 25px;
+.cambridge iframe {
+	width: 100%;
+	height: 400px;
+	border: none;
+	margin-top: 20px;
 }
 
-.Andrei{
-  font-size: 15px;
-  margin-top: 5px;
-  color: grey;
-  margin-bottom: 30px;
+.south-pole {
+	width: 100%;
+	height: 400px;
+	margin-top: 25px;
+}
+
+.Andrei {
+	font-size: 15px;
+	margin-top: 5px;
+	color: grey;
+	margin-bottom: 50px;
 }
 
 #article-end {
-  font-size: 13px;
-  color: grey;
+	font-size: 13px;
+	color: grey;
 }
 
-#article-end a{
-  color: grey;
+#article-end a {
+	color: grey;
 }
 
-.end-icons{
-  margin-right: 10px;
-  text-align: right;
+.end-icons {
+	text-align: right;
+	margin: 20px 10px 0 0;
 }
 
-.astronomy{
-  width: 90%;
-  margin: auto;
-  font-size: 16px;
+.astronomy {
+	width: 90%;
+	margin: auto;
+	font-size: 16px;
 }
 
-.main-astronomy{
-  width: 72%;
-  float: left;
+.main-astronomy {
+	width: 72%;
+	float: left;
+	padding-top: 30px;
+	padding-bottom: 50px;
 }
 
-.astronomy-aside{
-  width: 25%;
-  float: right;
+.astronomy-aside {
+	width: 25%;
+	float: right;
+	padding-top: 30px;
+	padding-bottom: 50px;
 }
 
-.astronomy-img1, .astronomy-img2, .astronomy-img3{
-  overflow: hidden;
+.astronomy-img-1,
+.astronomy-img-2,
+.astronomy-img-3 {
+	overflow: hidden;
 }
 
-.img1{
-  width: 32%;
-  float: left;
-  margin-right: 2%;
-  margin-top: 14px;
+.img1 {
+	width: 32%;
+	float: left;
+	margin-right: 2%;
+	margin-top: 14px;
 }
 
-.img2{
-  width: 32%;
-  float: left;
-  margin-right: 2%;
-  margin-top: 14px;
+.img2 {
+	width: 32%;
+	float: left;
+	margin-right: 2%;
+	margin-top: 14px;
 }
 
-.img3{
-  width: 32%;
-  float: left;
-  margin-right: 2%;
-  margin-top: 14px;
+.img3 {
+	width: 32%;
+	float: left;
+	margin-right: 2%;
+	margin-top: 14px;
 }
 
-
-.img1 img, .img2 img, .img3 img{
-  width: 100%;
+.img1 img,
+.img2 img,
+.img3 img {
+	width: 100%;
 }
 
-#sky{
-  margin-right: 0;
+#sky, #sky1, #sky2{
+	margin-right: 0;
 }
 
-.img1 figure, .img2 figure, .img3 figure{
-  width: 100%;
-  margin:0;
-  float: left;
-  font-size: 11px;
-  color: gray;
-  margin-bottom: 5px;
-  text-align: right;
+.img1 figure,
+.img2 figure,
+.img3 figure {
+	width: 100%;
+	margin: 0;
+	float: left;
+	font-size: 11px;
+	color: gray;
+	margin-bottom: 5px;
+	text-align: right;
+	display: block;
 }
 
-.main-astronomy a{
-  text-decoration: none;
-  color: black;
+figcaption {
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
-.astronomy-img-3 h5{
-  margin-top: 25px;
+.main-astronomy a {
+	text-decoration: none;
+	color: black;
 }
 
-.img-date{
-  color: gray;
-  font-size: 11px;
+.astronomy-img-3 h5 {
+	margin-top: 15px;
 }
 
-.astronomy-aside a{
-  text-decoration: none;
-  color: black;
+.img-date {
+	color: gray;
+	font-size: 11px;
 }
 
-.astronomy-aside h4{
-  margin-bottom: 15px;
-}
- .hr-black{
-  border: 0;
-  border-top: 1px solid black;
- }
-
- .gray-hr{
-  border: 0;
-  border-top: 1px solid lightgray;
- }
-
- .last-advertisement{
-   text-align: center;
-   background-color: #f7f7f7;
-   height: 200px;
-   padding: 5px;
-   color: lightgray;
-   font-size: 11px;
-   clear: both;
- }
-
- .news{
-   padding-top: 20px;
-   padding-bottom: 50px;
-   padding-left: 50px;
-   padding-right: 50px;
- }
-
- .top-footer{
-   display: flex;
-   font-size: 13px;
-   color: grey;
- }
-
- .top-footer h6{
-    margin-left: 950px;
+.astronomy-aside a {
+	text-decoration: none;
+	color: black;
 }
 
- .footer-hr{
-   border: 0;
-   border-top: 2px solid lightgray;
- }
-
- .footer-asides{
-   display: grid;
-   grid-template-columns: auto auto auto auto auto auto;
-   grid-gap: 10px;
-   margin-top: 20px;
-   margin-bottom: 20px;
- }
-
- .footer-asides a{
-   font-size: 15px;
-   text-decoration: none;
-   color: black;
- }
-
- .footer-asides p{
-   margin-bottom: 0px;
- }
-
-.footer-aside6{
-  border-left: 1px solid lightgray;
-  padding-left: 10px;
+.astronomy-aside h4 {
+	margin-top: 20px;
+	margin-bottom: 15px;
 }
 
-.footer-links{
-  text-align: center;
+.main-astronomy h4 {
+	margin-top: 20px;
+}
+.hr-black {
+	border: 0;
+	border-top: 1px solid black;
 }
 
-.footer-links a{
-  text-decoration: none;
-  font-size: 11px;
-  color: black;
+.gray-hr {
+	border: 0;
+	border-top: 1px solid lightgray;
 }
 
-.footer-links span{
-  margin-right: 25px;
+.last-advertisement {
+	text-align: center;
+	background-color: #f7f7f7;
+	height: 200px;
+	padding: 5px;
+	color: lightgray;
+	font-size: 11px;
+	clear: both;
 }
 
- .footer-hr{
-   color: lightgray;
- }
+.news {
+	padding-top: 20px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
 
- .footer-asides a:hover, .astronomy-aside a:hover{
-   text-decoration: underline;
+.top-footer {
+	display: flex;
+	font-size: 13px;
+	color: grey;
+}
 
- }
+.top-footer h6 {
+	margin-left: 950px;
+}
 
- .footer-asides h6{
-   margin-bottom: 7px;
- }
+.footer-hr {
+	border: 0;
+	border-top: 2px solid lightgray;
+}
 
- .footer-aside6 a, .chinese{
-   font-size: 11px;
- }
+.footer-asides {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+	grid-gap: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 
- .footer-aside6 img{
-   margin-left: 0px;
- }
+.footer-asides a {
+	font-size: 15px;
+	text-decoration: none;
+	color: black;
+}
+
+.footer-asides p {
+	margin-bottom: 0px;
+}
+
+.footer-aside6 {
+	border-left: 1px solid lightgray;
+	padding-left: 10px;
+}
+
+.footer-links {
+	text-align: center;
+}
+
+.footer-links a {
+	text-decoration: none;
+	font-size: 11px;
+	color: black;
+}
+
+.footer-links span {
+	margin-right: 25px;
+}
+
+.footer-hr {
+	color: lightgray;
+}
+
+.footer-asides a:hover,
+.astronomy-aside a:hover {
+	text-decoration: underline;
+}
+
+.footer-asides h6 {
+	margin-bottom: 7px;
+}
+
+.footer-aside6 a,
+.chinese {
+	font-size: 11px;
+}
+
+.footer-aside6 img {
+	margin-left: 0px;
+}
