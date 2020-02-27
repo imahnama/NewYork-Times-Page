@@ -18,7 +18,7 @@ section {
 }
 
 h2{
-    display: none;
+  display: none;
 }
 
 header {
@@ -47,6 +47,7 @@ nav {
 .fas {
 	 margin-right: 20px;
 }
+
 .icon a {
   text-decoration: none;
 	text-transform: uppercase;
@@ -93,6 +94,7 @@ svg {
 	padding: 5px;
 	color: lightgray;
 }
+
 .advert {
 	font-size: 11px;
 }
@@ -103,6 +105,7 @@ svg {
 	font-style: italic;
 	font-size: 35px;
 }
+
 .space-ripples img {
 	width: 70%;
 	margin-left: 15%;
@@ -110,6 +113,7 @@ svg {
 	font-size: 16px;
 	margin-bottom: 0;
 }
+
 .space-ripples p {
 	margin-top: 5px;
 	color: gray;
@@ -117,6 +121,7 @@ svg {
 	margin-left: 15%;
 	margin-right: 15%;
 }
+
 .space-ripples span {
 	font-size: 13px;
 	color: #c0c0c0;
@@ -161,17 +166,20 @@ svg {
 	width: 18%;
 	margin: auto 70px;
 }
+
 .editor-artwork {
 	display: flex;
 	padding: 0;
 	margin-top: 15px;
 }
+
 .artwork-thumb {
 	width: 80px;
 	height: inherit;
 	float: left;
 	margin-right: 10px;
 }
+
 .artwork-details {
 	font-size: 14px;
 	color: black;
@@ -184,6 +192,7 @@ svg {
 	margin-right: auto;
 	font-size: 14px;
 }
+
 .inflation img {
 	width: 100%;
 	padding: 0;
@@ -226,21 +235,21 @@ svg {
 
 .inflation-p6 {
 	position: absolute;
-	bottom: 0px;
+	bottom: 0;
 	left: 26%;
 	width: 24%;
 }
 
 .inflation-p7 {
 	position: absolute;
-	bottom: 0px;
+	bottom: 0;
 	left: 51%;
 	width: 24%;
 }
 
 .inflation-p8 {
 	position: absolute;
-	bottom: 0px;
+	bottom: 0;
 	left: 76%;
 	width: 24%;
 }
@@ -252,6 +261,7 @@ svg {
 	left: 0;
 	margin-top: 20px;
 }
+
 .cambridge iframe {
 	width: 100%;
 	height: 400px;
@@ -274,10 +284,6 @@ svg {
 
 #article-end {
 	font-size: 13px;
-	color: grey;
-}
-
-#article-end a {
 	color: grey;
 }
 
@@ -339,8 +345,10 @@ svg {
    width: 100%;
 }
 
-#sky, #sky1, #sky2{
-	margin-right: 0;
+#sky,
+#sky1,
+#sky2{
+   margin-right: 0;
 }
 
 .img1 figure,
@@ -366,6 +374,37 @@ figcaption {
 	 color: black;
 }
 
+.astronomy-aside a {
+  text-decoration: none;
+	color: black;
+}
+
+.footer-asides a {
+	font-size: 15px;
+	text-decoration: none;
+	color: black;
+}
+
+.footer-aside6 a,
+.chinese {
+	font-size: 11px;
+}
+
+.footer-asides a:hover,
+.astronomy-aside a:hover {
+	text-decoration: underline;
+}
+
+.footer-links a {
+	text-decoration: none;
+	font-size: 11px;
+	color: black;
+}
+
+#article-end a {
+	color: grey;
+}
+
 .astronomy-img-3 h5 {
 	margin-top: 15px;
 }
@@ -375,19 +414,15 @@ figcaption {
 	font-size: 11px;
 }
 
-.astronomy-aside a {
-  text-decoration: none;
-	color: black;
-}
-
 .astronomy-aside h4 {
-	 margin-top: 20px;
+	margin-top: 20px;
 	margin-bottom: 15px;
 }
 
 .main-astronomy h4 {
 	margin-top: 20px;
 }
+
 .hr-black {
 	border: 0;
 	border-top: 1px solid black;
@@ -438,14 +473,8 @@ figcaption {
 	margin-bottom: 20px;
 }
 
-.footer-asides a {
-	font-size: 15px;
-	text-decoration: none;
-	color: black;
-}
-
 .footer-asides p {
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 .footer-aside6 {
@@ -457,12 +486,6 @@ figcaption {
 	text-align: center;
 }
 
-.footer-links a {
-	text-decoration: none;
-	font-size: 11px;
-	color: black;
-}
-
 .footer-links span {
 	margin-right: 25px;
 }
@@ -471,20 +494,11 @@ figcaption {
 	color: lightgray;
 }
 
-.footer-asides a:hover,
-.astronomy-aside a:hover {
-	text-decoration: underline;
-}
-
 .footer-asides h6 {
 	margin-bottom: 7px;
 }
 
-.footer-aside6 a,
-.chinese {
-	font-size: 11px;
-}
 
 .footer-aside6 img {
-	margin-left: 0px;
+	margin-left: 0;
 }
