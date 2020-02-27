@@ -301,6 +301,10 @@ svg {
   float: right;
 }
 
+.astronomy-img1, .astronomy-img2, .astronomy-img3{
+  overflow: hidden;
+}
+
 .img1{
   width: 32%;
   float: left;
@@ -321,6 +325,7 @@ svg {
   margin-right: 2%;
   margin-top: 14px;
 }
+
 
 .img1 img, .img2 img, .img3 img{
   width: 100%;
@@ -352,10 +357,6 @@ svg {
 .img-date{
   color: gray;
   font-size: 11px;
-}
-
-#sky1{
-  margin-bottom: 60px;
 }
 
 .astronomy-aside a{
@@ -426,30 +427,9 @@ svg {
    margin-bottom: 0px;
  }
 
-.footer-aside1{
-
-}
-
-.footer-aside2{
-
-}
-
-.footer-aside3{
-
-}
-
-.footer-aside4{
-
-}
-
-.footer-aside5{
-
-}
-
 .footer-aside6{
   border-left: 1px solid lightgray;
-
-
+  padding-left: 10px;
 }
 
 .footer-links{
@@ -470,11 +450,19 @@ svg {
    color: lightgray;
  }
 
+ .footer-asides a:hover, .astronomy-aside a:hover{
+   text-decoration: underline;
+
+ }
+
  .footer-asides h6{
    margin-bottom: 7px;
  }
 
  .footer-aside6 a, .chinese{
    font-size: 11px;
-   margin-left: 10px;
+ }
+
+ .footer-aside6 img{
+   margin-left: 0px;
  }
