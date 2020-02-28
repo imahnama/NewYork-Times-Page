@@ -25,6 +25,7 @@ A browser of your choice preferrably Chrome.
 ### Setup
 
 Fork this project to your local machine
+Open the index.html file in any browser or edit using Visual Code or the preference IDE for web development
 
 
 ## Authors
@@ -45,7 +46,7 @@ Fork this project to your local machine
 
 Contributions, issues and feature requests are all welcome!
 
-Feel free to check the [https://github.com/imahnama/NewYork-Times-Page/issues](issues/).
+Feel free to check the [issues/](https://github.com/imahnama/NewYork-Times-Page/issues).
 
 ## Show your support
 
@@ -54,7 +55,7 @@ Give a ⭐️ if you like this project!!
 ## Acknowledgments
 
 - Freecodecamp
-- https://www.w3schools.com/howto/howto_css_image_text.asp
+- [W3-CSS-GRID]](https://www.w3schools.com/howto/howto_css_image_text.asp)
 
 ## 📝 License
 
