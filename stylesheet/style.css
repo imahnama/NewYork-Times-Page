@@ -368,6 +368,17 @@ figcaption {
   color: gray;
 }
 
+.footer-links a {
+  text-decoration: none;
+  font-size: 11px;
+  color: gray;
+}
+
+.fixed-footer a {
+  text-decoration: none;
+  color: #4d4b4b;
+}
+
 .main-astronomy a {
   text-decoration: none;
   color: black;
@@ -375,6 +386,11 @@ figcaption {
 
 .astronomy-aside a {
   text-decoration: none;
+  color: black;
+}
+
+.astronomy-img-3 h5 > a:hover {
+  text-decoration: underline;
   color: black;
 }
 
@@ -389,11 +405,6 @@ figcaption {
   font-size: 11px;
 }
 
-.astronomy-img-3 h5 > a:hover {
-  text-decoration: underline;
-  color: black;
-}
-
 .main-astronomy a:hover {
   color: gray;
 }
@@ -404,16 +415,7 @@ figcaption {
   text-decoration: underline;
 }
 
-.footer-links a {
-  text-decoration: none;
-  font-size: 11px;
-  color: gray;
-}
 
-.fixed-footer a {
-  text-decoration: none;
-  color: #4d4b4b;
-}
 
 #article-end a {
   color: grey;
@@ -480,6 +482,7 @@ figcaption {
 .footer-hr {
   border: 0;
   border-top: 2px solid lightgray;
+  color: lightgray;
 }
 
 .footer-asides {
@@ -505,10 +508,6 @@ figcaption {
 
 .footer-links span {
   margin-right: 25px;
-}
-
-.footer-hr {
-  color: lightgray;
 }
 
 .footer-asides h6 {
