@@ -1,0 +1,550 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+article,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  display: none;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  padding: 2px;
+  border-bottom: 1px solid #e2e2e2;
+  background-color: white;
+}
+
+.left-nav {
+  justify-content: flex-start;
+  margin-left: 20px;
+  width: 30%;
+  margin-top: 7px;
+}
+
+.icon,
+.fas {
+  margin-right: 20px;
+}
+
+.icon a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+}
+
+.center-nav {
+  justify-content: center;
+  text-align: center;
+  width: 40%;
+  margin-top: 7px;
+}
+
+svg {
+  width: 190px;
+  height: auto;
+}
+
+.right-nav {
+  justify-content: flex-end;
+  margin-right: 20px;
+  width: 30%;
+  text-align: right;
+  padding-top: 5px;
+}
+
+.right-nav button {
+  padding: 8px 10px;
+  font-size: 11px;
+  font-weight: bold;
+  color: white;
+  border-radius: 4px;
+  background-color: #316891;
+  border: none;
+}
+
+.advertisement {
+  text-align: center;
+  background-color: #f7f7f7;
+  height: 200px;
+  padding: 15px 0;
+  color: lightgray;
+}
+
+.advert {
+  font-size: 11px;
+}
+
+.space-ripples h1 {
+  margin: 50px 0 20px 350px;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-style: italic;
+  font-size: 35px;
+}
+
+.space-ripples img {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.space-ripples p {
+  margin-top: 5px;
+  color: gray;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.space-ripples span {
+  font-size: 13px;
+  color: #c0c0c0;
+}
+
+.cambridge {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 30px 0;
+}
+
+.article-icons i {
+  margin-left: 5px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.article-author {
+  font-size: 16px;
+  margin: 0;
+}
+
+.article-date {
+  margin-right: 320px;
+  font-size: 14px;
+}
+
+.cambridge-editors {
+  display: flex;
+  justify-content: center;
+}
+
+.cambridge-2 {
+  width: 50%;
+  margin-left: 25%;
+  padding: 30px 0;
+}
+
+.editors-pick {
+  float: right;
+  width: 18%;
+  margin: auto 70px;
+}
+
+.editor-artwork {
+  display: flex;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.artwork-thumb {
+  width: 80px;
+  height: inherit;
+  float: left;
+  margin-right: 10px;
+}
+
+.artwork-details {
+  font-size: 14px;
+  color: black;
+}
+
+.inflation {
+  position: relative;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+}
+
+.inflation img {
+  width: 100%;
+  padding: 0;
+}
+
+.inflation-p1 {
+  position: absolute;
+  top: 210px;
+  left: 0;
+  width: 24%;
+}
+
+.inflation-p2 {
+  position: absolute;
+  top: 210px;
+  left: 26%;
+  width: 24%;
+}
+
+.inflation-p3 {
+  position: absolute;
+  top: 210px;
+  left: 51%;
+  width: 24%;
+}
+
+.inflation-p4 {
+  position: absolute;
+  top: 210px;
+  left: 76%;
+  width: 24%;
+}
+
+.inflation-p5 {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 24%;
+}
+
+.inflation-p6 {
+  position: absolute;
+  bottom: 0;
+  left: 26%;
+  width: 24%;
+}
+
+.inflation-p7 {
+  position: absolute;
+  bottom: 0;
+  left: 51%;
+  width: 24%;
+}
+
+.inflation-p8 {
+  position: absolute;
+  bottom: 0;
+  left: 76%;
+  width: 24%;
+}
+
+.inflation hr {
+  width: 8%;
+  color: black;
+  position: absolute;
+  left: 0;
+  margin-top: 20px;
+}
+
+.cambridge iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+  margin-top: 20px;
+}
+
+.south-pole {
+  width: 100%;
+  height: 400px;
+  margin-top: 25px;
+}
+
+.Andrei {
+  font-size: 15px;
+  margin-top: 5px;
+  color: grey;
+  margin-bottom: 50px;
+}
+
+#article-end {
+  font-size: 13px;
+  color: grey;
+}
+
+.end-icons {
+  text-align: right;
+  margin: 20px 10px 0 0;
+}
+
+.astronomy {
+  width: 90%;
+  margin: auto;
+  font-size: 16px;
+}
+
+.main-astronomy {
+  width: 72%;
+  float: left;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.main-astronomy p {
+  margin: 0;
+}
+
+.astronomy-aside {
+  width: 25%;
+  float: right;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.astronomy-img-1,
+.astronomy-img-2,
+.astronomy-img-3 {
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.img1 {
+  width: 32%;
+  float: left;
+  margin-right: 2%;
+}
+
+.img2 {
+  width: 32%;
+  float: left;
+  margin-right: 2%;
+}
+
+.img3 {
+  width: 32%;
+  float: left;
+  margin-right: 2%;
+}
+
+.img1 img,
+.img2 img,
+.img3 img {
+  width: 100%;
+}
+
+#sky,
+#sky1,
+#sky2 {
+  margin-right: 0;
+}
+
+.img1 figure,
+.img2 figure,
+.img3 figure {
+  width: 100%;
+  margin: 0;
+  float: left;
+  font-size: 11px;
+  color: gray;
+  margin-bottom: 5px;
+  text-align: right;
+  display: block;
+}
+
+figcaption {
+  margin-top: 5px;
+  margin-bottom: 2px;
+  color: gray;
+}
+
+.footer-links a {
+  text-decoration: none;
+  font-size: 11px;
+  color: gray;
+}
+
+.fixed-footer a {
+  text-decoration: none;
+  color: #4d4b4b;
+}
+
+.main-astronomy a {
+  text-decoration: none;
+  color: black;
+}
+
+.astronomy-aside a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-asides a {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-aside6 a,
+.chinese {
+  font-size: 11px;
+}
+
+.main-astronomy a:hover {
+  color: gray;
+}
+
+.footer-asides a:hover,
+.astronomy-aside a:hover,
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.astronomy-img-3 h5 > a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+#article-end a {
+  color: grey;
+}
+
+.astronomy-img-3 h5 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.img-date {
+  color: gray;
+  font-size: 11px;
+  margin-top: 7px !important;
+}
+
+.astronomy-aside h4 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.main-astronomy h4 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.hr-black {
+  border: 0;
+  border-top: 1px solid black;
+}
+
+.gray-hr {
+  border: 0;
+  border-top: 1px solid lightgray;
+}
+
+.last-advertisement {
+  text-align: center;
+  background-color: #f7f7f7;
+  height: 200px;
+  padding: 15px;
+  color: lightgray;
+  font-size: 11px;
+  clear: both;
+}
+
+.news {
+  padding-top: 20px;
+  padding-bottom: 35px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.top-footer {
+  display: flex;
+  font-size: 13px;
+  color: grey;
+}
+
+.top-footer h6 {
+  margin-left: 950px;
+}
+
+.footer-hr {
+  border: 0;
+  border-top: 2px solid lightgray;
+  color: lightgray;
+}
+
+.footer-asides {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-asides p {
+  margin-bottom: 0;
+}
+
+.footer-aside6 {
+  border-left: 1px solid lightgray;
+  padding-left: 10px;
+}
+
+.footer-links {
+  text-align: center;
+}
+
+.footer-links span {
+  margin-right: 25px;
+}
+
+.footer-asides h6 {
+  margin-bottom: 7px;
+}
+
+.footer-aside6 img {
+  margin-left: 0;
+}
+
+.fixed-footer {
+  position: sticky;
+  background-color: white;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  font-size: 17px;
+  border-top: 1px solid black;
+  padding: 0 100px;
+  justify-content: center;
+}
+
+.expand {
+  display: inline-block;
+  font-size: 13px;
+  color: #4d4b4b;
+  font-weight: 600;
+  margin-right: 30px;
+}
+
+.fixed-footer-right {
+  padding-top: 10px;
+  text-align: right;
+  width: 13%;
+}
+
+.fixed-footer-center {
+  text-align: center;
+  justify-content: center;
+  width: 87%;
+}
