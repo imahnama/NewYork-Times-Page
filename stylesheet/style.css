@@ -1,8 +1,8 @@
 body {
-    margin: 0;
-	  padding: 0;
-	  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-	  font-size: 20px;
+	margin: 0;
+	padding: 0;
+	font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+	font-size: 20px;
 }
 
 h1,
@@ -13,43 +13,40 @@ h5,
 h6,
 article,
 section {
-    margin: 0;
-	  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
-h2{
-  display: none;
+h2 {
+	display: none;
 }
 
 header {
-    position: fixed;
-	  top: 0;
-	  bottom: 93%;
-	  left: 0;
-  	right: 0;
+	position: fixed;
+	width: 100%;
 }
 
 nav {
-    display: flex;
-	  padding: 2px;
-	  border-bottom: 1px solid #e2e2e2;
-	  background-color: white;
+	display: flex;
+	padding: 2px;
+	border-bottom: 1px solid #e2e2e2;
+	background-color: white;
 }
 
 .left-nav {
-	 justify-content: flex-start;
-   margin-left: 20px;
-	 width: 30%;
-	 margin-top: 7px;
+	justify-content: flex-start;
+	margin-left: 20px;
+	width: 30%;
+	margin-top: 7px;
 }
 
 .icon,
 .fas {
-	 margin-right: 20px;
+	margin-right: 20px;
 }
 
 .icon a {
-  text-decoration: none;
+	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 15px;
 	color: black;
@@ -57,10 +54,9 @@ nav {
 }
 
 .center-nav {
-  justify-content: center;
+	justify-content: center;
 	text-align: center;
 	width: 40%;
-	font-weight: bold;
 	margin-top: 7px;
 }
 
@@ -91,7 +87,7 @@ svg {
 	text-align: center;
 	background-color: #f7f7f7;
 	height: 200px;
-	padding: 5px;
+	padding: 15px 0;
 	color: lightgray;
 }
 
@@ -305,6 +301,10 @@ svg {
 	padding-bottom: 50px;
 }
 
+.main-astronomy p {
+	margin: 0;
+}
+
 .astronomy-aside {
 	width: 25%;
 	float: right;
@@ -316,66 +316,65 @@ svg {
 .astronomy-img-2,
 .astronomy-img-3 {
 	overflow: hidden;
+	margin-bottom: 25px;
 }
 
 .img1 {
 	width: 32%;
 	float: left;
 	margin-right: 2%;
-	margin-top: 14px;
 }
 
 .img2 {
-	 width: 32%;
-	 float: left;
-	 margin-right: 2%;
-	 margin-top: 14px;
+	width: 32%;
+	float: left;
+	margin-right: 2%;
 }
 
 .img3 {
-	 width: 32%;
-	 float: left;
-	 margin-right: 2%;
-	 margin-top: 14px;
+	width: 32%;
+	float: left;
+	margin-right: 2%;
 }
 
 .img1 img,
 .img2 img,
 .img3 img {
-   width: 100%;
+	width: 100%;
 }
 
 #sky,
 #sky1,
-#sky2{
-   margin-right: 0;
+#sky2 {
+	margin-right: 0;
 }
 
 .img1 figure,
 .img2 figure,
 .img3 figure {
-	 width: 100%;
-	 margin: 0;
-	 float: left;
-	 font-size: 11px;
-	 color: gray;
-	 margin-bottom: 5px;
-	 text-align: right;
-	 display: block;
+	width: 100%;
+	margin: 0;
+	float: left;
+	font-size: 11px;
+	color: gray;
+	margin-bottom: 5px;
+	text-align: right;
+	display: block;
 }
 
 figcaption {
-	 margin-top: 5px;
-	 margin-bottom: 5px;
+	margin-top: 5px;
+	margin-bottom: 2px;
+	color: gray;
 }
 
 .main-astronomy a {
-	 text-decoration: none;
-	 color: black;
+	text-decoration: none;
+	color: black;
 }
 
 .astronomy-aside a {
-  text-decoration: none;
+	text-decoration: none;
 	color: black;
 }
 
@@ -390,15 +389,30 @@ figcaption {
 	font-size: 11px;
 }
 
+.astronomy-img-3 h5 > a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+.main-astronomy a:hover {
+	color: gray;
+}
+
 .footer-asides a:hover,
-.astronomy-aside a:hover {
+.astronomy-aside a:hover,
+.footer-links a:hover {
 	text-decoration: underline;
 }
 
 .footer-links a {
 	text-decoration: none;
 	font-size: 11px;
-	color: black;
+	color: gray;
+}
+
+.fixed-footer a {
+	text-decoration: none;
+	color: #4d4b4b;
 }
 
 #article-end a {
@@ -407,11 +421,13 @@ figcaption {
 
 .astronomy-img-3 h5 {
 	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .img-date {
 	color: gray;
 	font-size: 11px;
+	margin-top: 6px !important;
 }
 
 .astronomy-aside h4 {
@@ -421,6 +437,7 @@ figcaption {
 
 .main-astronomy h4 {
 	margin-top: 20px;
+	margin-bottom: 15px;
 }
 
 .hr-black {
@@ -437,7 +454,7 @@ figcaption {
 	text-align: center;
 	background-color: #f7f7f7;
 	height: 200px;
-	padding: 5px;
+	padding: 15px;
 	color: lightgray;
 	font-size: 11px;
 	clear: both;
@@ -445,7 +462,7 @@ figcaption {
 
 .news {
 	padding-top: 20px;
-	padding-bottom: 50px;
+	padding-bottom: 35px;
 	padding-left: 50px;
 	padding-right: 50px;
 }
@@ -498,7 +515,39 @@ figcaption {
 	margin-bottom: 7px;
 }
 
-
 .footer-aside6 img {
 	margin-left: 0;
+}
+
+.fixed-footer {
+	position: sticky;
+	background-color: white;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	font-size: 17px;
+	border-top: 1px solid black;
+	padding: 0 100px;
+	justify-content: center;
+}
+
+.expand {
+	display: inline-block;
+	font-size: 13px;
+	color: #4d4b4b;
+	font-weight: 600;
+	margin-right: 30px;
+}
+
+.fixed-footer-right {
+	padding-top: 10px;
+	text-align: right;
+	width: 13%;
+}
+
+.fixed-footer-center {
+	text-align: center;
+	justify-content: center;
+	width: 87%;
 }
