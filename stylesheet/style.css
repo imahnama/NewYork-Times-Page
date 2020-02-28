@@ -389,11 +389,6 @@ figcaption {
   color: black;
 }
 
-.astronomy-img-3 h5 > a:hover {
-  text-decoration: underline;
-  color: black;
-}
-
 .footer-asides a {
   font-size: 15px;
   text-decoration: none;
@@ -416,6 +411,10 @@ figcaption {
 }
 
 
+.astronomy-img-3 h5 > a:hover {
+  text-decoration: underline;
+  color: black;
+}
 
 #article-end a {
   color: grey;
