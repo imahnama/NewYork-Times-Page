@@ -55,7 +55,7 @@ Give a ⭐️ if you like this project!!
 ## Acknowledgments
 
 - Freecodecamp
-- [W3-CSS-GRID]](https://www.w3schools.com/howto/howto_css_image_text.asp)
+- [W3-CSS-GRID]s(https://www.w3schools.com/howto/howto_css_image_text.asp)
 
 ## 📝 License
 
