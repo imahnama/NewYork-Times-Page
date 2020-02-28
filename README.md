@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/imahnama/NewYork-Times-Page/Newyork-times/index.html)
+[Live Demo Link](https://raw.githack.com/imahnama/NewYork-Times-Page/master/index.html)
 
 ## Getting Started
 
