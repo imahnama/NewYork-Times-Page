@@ -24,6 +24,7 @@ h2 {
 header {
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 nav {
@@ -186,7 +187,7 @@ svg {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  font-size: 14px;
+  font-size: 70%;
 }
 
 .inflation img {
