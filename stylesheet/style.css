@@ -196,60 +196,24 @@ svg {
   padding: 0;
 }
 
-.inflation-p1 {
+.inflation-grid1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(50px, auto);
+  column-gap: 25px;
   position: absolute;
   top: 210px;
   left: 0;
-  width: 24%;
 }
 
-.inflation-p2 {
-  position: absolute;
-  top: 210px;
-  left: 26%;
-  width: 24%;
-}
-
-.inflation-p3 {
-  position: absolute;
-  top: 210px;
-  left: 51%;
-  width: 24%;
-}
-
-.inflation-p4 {
-  position: absolute;
-  top: 210px;
-  left: 76%;
-  width: 24%;
-}
-
-.inflation-p5 {
+.inflation-grid2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(50px, auto);
+  column-gap: 25px;
   position: absolute;
   bottom: 5px;
   left: 0;
-  width: 24%;
-}
-
-.inflation-p6 {
-  position: absolute;
-  bottom: 0;
-  left: 26%;
-  width: 24%;
-}
-
-.inflation-p7 {
-  position: absolute;
-  bottom: 0;
-  left: 51%;
-  width: 24%;
-}
-
-.inflation-p8 {
-  position: absolute;
-  bottom: 0;
-  left: 76%;
-  width: 24%;
 }
 
 .inflation hr {
@@ -487,8 +451,9 @@ figcaption {
 
 .footer-asides {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
-  grid-gap: 10px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  column-gap: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
