@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-size: 20px;
+  overflow-x: hidden;
 }
 
 h1,
