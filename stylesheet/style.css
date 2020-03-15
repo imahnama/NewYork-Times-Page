@@ -216,6 +216,12 @@ svg {
   left: 0;
 }
 
+.inflation-grid1 p,
+.inflation-grid2 p {
+  width: 100%;
+  height: 100%;
+}
+
 .inflation hr {
   width: 8%;
   color: black;
